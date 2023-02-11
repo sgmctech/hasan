@@ -21,7 +21,7 @@ pipeline{
         }
         stage('push'){
             steps{
-                sh 'docker push rajeevtcsranjan/demopush:latest'
+                sh 'docker push gauravkothiyal/hello-world-hasan:${BUILD_ID}'
             }
         }
     }
