@@ -1,0 +1,6 @@
+alpine-baselayout
+alpine-keys
+apk-tools
+busybox
+libc-utils
+openjdk8=8.212.04-r0
