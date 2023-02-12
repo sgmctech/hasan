@@ -1,7 +1,7 @@
 FROM  vlatombe/java-build-tools as build
 WORKDIR /usr/app
 COPY . /usr/app
-RUN mvn package checkstyle:checkstyle pmd:pmd findbugs:findbugs
+RUN mvn package
 
 FROM openjdk:8-jdk-alpine
 WORKDIR /usr/app
